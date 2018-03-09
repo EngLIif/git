@@ -2,6 +2,7 @@ package domain;
 
 public class test {
     private Integer id;
+    private String name;
 
     public test() {
     }
@@ -12,5 +13,13 @@ public class test {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
